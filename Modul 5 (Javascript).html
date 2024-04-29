@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript Library</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<style>table{width:100%;border-collapse:collapse}th,td{padding:8px;text-align:left;border-bottom:1px solid #ddd}tr:hover{background-color:rgb(96, 211, 226)}.highlight{background-color:#fff}body{background-color:#f5f5dc}</style>
+</head>
+<body>
+<h1 style="text-align: center; color: rgb(106, 146, 233); background: rgb(222, 215, 247);">Perpustakaan Meraih Mimpi</h1>
+<h3 style="text-align: center; color: black;">Selamat datang di Perpustakaan Meraih Mimpi. Dibawah ini merupakan beberapa koleksi buku yang dimiliki oleh Perpustakaan Meraih Mimpi.<br> Ketik judul buku pada kolom Search untuk mempercepat pencarian!</h3>
+<table id="library-table">
+<thead>
+<tr>
+<th>Judul Buku</th>
+<th>Penulis</th>
+<th>Tahun Terbit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TANAMAN-TANAMAN HIAS AJAIB UNTUK KECANTIKAN DAN KESEHATAN</td>
+<td>Yusef N. Jatmika</td>
+<td>2013</td>
+</tr>
+<tr>
+<td>UPAYA MENUJU GENERASI TANPA MEROKOK</td>
+<td>Umi Istiqomah</td>
+<td>2003</td>
+</tr>
+<tr>
+<td>STRATEGI PENGELOLAAN HUTAN : Upaya Menyelamatkan Rimba yang tersisa</td>
+<td>Dodik Ridho</td>
+<td>2005</td>
+</tr>
+<tr>
+<td>BERJUANG SAMPAI AKHIR : Kisah Seorang Mbah Muchith</td>
+<td>Mohammad Subhan</td>
+<td>2006</td>
+</tr>
+<tr>
+<td>OPTIMALKAN KESEHATAN WAJAH DAN KULIT DENGAN BENGKUANG</td>
+<td>Sitiatava Rizema Putra</td>
+<td>2012</td>
+</tr>
+<tr>
+<td>MISTERI-MISTERI TENTANG RUANG DAN WAKTU</td>
+<td>Bill Bryson</td>
+<td>2015</td>
+</tr>
+<tr>
+<td>Filosofi Teras : Filsafat Yunani-Romawi Kuno untuk Mental Tangguh Masa Kini</td>
+<td>Henry Manampiring</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>SI ANAK PINTAR</td>
+<td>Tere Liye</td>
+<td>2018</td>
+</tr>
+<tr>
+<td>PINTAR TANPA PAYAH : Ragam Cara Praktis Belajar Tak biasa dan Unik</td>
+<td>Khalifi Elyas Bahar</td>
+<td>2011</td>
+</tr>
+<tr>
+<td>TEKNOLOGI MASA DEPAN : Dari Robot Manusia hingga Rumah Pintar</td>
+<td>Charles</td>
+<td>2012</td>
+</tr>
+<tr>
+<td>Jika Kita Tak Pernah Jadi Apa-Apa</td>
+<td>Alvi Syahrin</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>OTAK SEJUTA GIGABYTE BUKU PINTAR MEMBANGUN INGATAN SUPER</td>
+<td>Eric</td>
+<td>2003</td>
+</tr>
+<tr>
+<td>MEMBANGUN MENTAL KAYA ALA JEPANG </td>
+<td>Agus Susanto</td>
+<td>2013</td>
+</tr>
+<tr>
+<td>Seni Mengendalikan Emosi</td>
+<td>Claudia Sabrina</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>MISTERI OTAK KANAN MANUSIA</td>
+<td>Daniel</td>
+<td>2009</td>
+</tr>
+<tr>
+<td>KUNCI PENGEMBANGAN DIRI</td>
+<td>Nilam Widyarini</td>
+<td>2009</td>
+</tr>
+<tr>
+<td>PINTAR MENULIS KARANGAN ILMIAH : KUNCI SUKSES DALAM MENULISA KARANGAN ILMIAH </td>
+<td>JONATHAN SARWONO</td>
+<td>2010</td>
+</tr>
+<tr>
+<td>RAHASIA DI BALIK PENCIPTAAN ORGAN TUBUH MANUSIA</td>
+<td>Muhammad Suwardi</td>
+<td>2015</td>
+</tr>
+</tbody>
+</table>
+<script>$(document).ready(function(){$("#library-table").DataTable({paging:false,searching:true,ordering:true});$("tr").mouseover(function(){$(this).addClass("highlight");});$("tr").mouseout(function(){$(this).removeClass("highlight");});$("th").addClass("animate_animated animate_bounce");});</script>
+</body>
+</html>
