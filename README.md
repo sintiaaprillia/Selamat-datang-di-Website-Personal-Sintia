@@ -26,6 +26,10 @@ Web
 <a href="MODUL 2.1 SAYA.html">Formulir Anggota Perpustakaan</a>
 <a href="MODUL 2.2 SAYA .html">Tabel Bahan Buku</a > 
 <a href="MODUL 3.2. SAYAA html.html">Pengenalan HTML dan CSS dengan Variasi CSS</a>
+<a href="MODUL 4 (border).html">Bordered</a>
+<a href="MODUL 4 (table).html">Table</a>
+<a href="MODUL 4 (Form.html).html">Form and Button</a>
+<a href="Modul 5 (Javascript).html">Pengenalan Javascript</a>
 
 </div>
 </body>
