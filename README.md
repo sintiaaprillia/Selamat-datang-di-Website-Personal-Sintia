@@ -35,7 +35,7 @@ Web
 </body>
 </html>
 </nav>
-<center><h1>WELCOME TO Libraries Meraih Mimpi </h1>
+<center><h1>WELCOME TO LIBRARIES MERAIH MIMPI </h1>
 <img src="background-perpustakaan.webp" style="width:1340px;height:300px;" align="middle">
 <hr></hr>id
 <center><table border="l">
