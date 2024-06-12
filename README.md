@@ -29,9 +29,12 @@ Web
 <a href="MODUL 4 (border).html">Bordered</a>
 <a href="MODUL 4 (table).html">Table</a>
 <a href="MODUL 4 (Form.html).html">Form and Button</a>
-<a href="Modul 5 (Javascript).html">Pengenalan Javascript</a>
+<a href="Modul 5 (Javascript).html">Form Pengenalan Javascript</a>
+<a href="MODUL 6.html">Form Pengenalan Jquery</a>
+<a href="Modul 7.html">Form dasar PHP</a>
+<a href="Modul 8.html">Form PHP II dan MYSQL<a/>
 
-</div>
+</div> 
 </body>
 </html>
 </nav>
