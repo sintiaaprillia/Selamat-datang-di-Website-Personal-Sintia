@@ -35,8 +35,8 @@ Web
 </body>
 </html>
 </nav>
-<center><h1>WELCOME TO Libraries </h1>
-<img src="https://akcdn.detik.net./visual/2015/01/06/7aeb76f2-5669-46ec-9882-90552bef85ff_169.jpg?w=650&q=90" style="width:1340px;height:300px;" align="middle">
+<center><h1>WELCOME TO Libraries Meraih Mimpi </h1>
+<img src="background-perpustakaan.webp" style="width:1340px;height:300px;" align="middle">
 <hr></hr>id
 <center><table border="l">
 <th><h3 style="color:rgb(0, 38, 255)"> About this Website </h3></th>
