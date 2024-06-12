@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript Library</title>
+<script src="https://code.jquery.com/jquery-2.2.0.Min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<style>table{width:100%;border-collapse:collapse}th,td{padding:8px;text-align:left;border-bottom:1px solid #ddd}tr:hover{background-color:#ff0}.highlight{background-color:#fff}body{background-color:#f5f5dc}</style>
+</head>
+<body>
+<h1 style="text-align: center; color: rgba(58, 54, 9, 0.862); background: hsl(39, 84%, 70%);">Perpustakaan Meraih Mimpi</h1>
+<h3 style="text-align: center; color: black;">Selamat datang di Perpustakaan Meraih Mimpi. Dibawah ini merupakan beberapa koleksi buku yang dimiliki oleh Pepustakaan Meraih Mimpi.<br> Ketik judul buku pada kolom Search untuk mempercepat pencarian!</h3>
+<table id="library-table">
+<thead>
+<tr>
+<th>Judul Buku</th>
+<th>Penulis</th>
+<th>Tahun Terbit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Membaca itu sehat</td>
+<td>Achmad Basri</td>
+<td>1994</td>
+</tr>
+<tr>
+<td>Guru cerdas literasi murid cerdas ekspresi</td>
+<td>Nur Syamsi</td>	
+<td>2017</td>
+</tr>
+<tr>
+<td>Milyaran detikku menyusun cerita</td>
+<td>Nur Aulia Utamy</td>
+<td>2017</td>
+</tr>
+<tr>
+<td>Pentas pendiri sunyi</td>
+<td>Nurhayati</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>Sabda cinta</td>
+<td>Sri Nurhayati</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>Pelangi</td>
+<td>Sri Lestari </td>
+<td>2019</td>
+</tr>
+<tr>
+<td>Hati yang ikhlas </td>
+<td>Sri Haryati</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>Mengakui kesalahan</td>
+<td>Izzah Anissa</td>
+<td>2016</td>
+</tr>
+<tr>
+<td>Jika Kita Tak Pernah Jadi Apa-Apa</td>
+<td>Alvi Syahrin</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>The Public Library</td>
+<td>Robert Dawson</td>
+<td>2014</td>
+</tr>
+<tr>
+<td>Seni Hidup Minimalis</td>
+<td>Francine Jay</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>Pemimpin antara keberhasilan dan kegagalan </td>
+<td> J. Kaloh</td>
+<td>2006</td>
+</tr>
+<tr>
+<td>Rela menerima kekalahan</td>
+<td>Noval Manuel</td>
+<td>2014</td>
+</tr>
+</tbody>
+</table>
+<script>$(document).ready(function(){$("#library-table").DataTable({paging:false,searching:true,ordering:true});$("tr").mouseover(function(){$(this).addClass("highlight");});$("tr").mouseout(function(){$(this).removeClass("highlight");});$("th").addClass("animate_animated animate_bounce");});</script>
+</body>
+</html>
